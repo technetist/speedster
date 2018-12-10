@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speedster</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body id="race">
+<h1>Speedster</h1>
+<input type="button" value="Go!" id="go">
+<input type="button" value="Reset" id="reset">
+
+<div id="racetrack">
+    <img src="assets/img/car1.png" alt="Green Car" id="car1" class="car">
+    <img src="assets/img/car2.png" alt="Red Car" id="car2" class="car">
+</div>
+
+<div id="raceInfoContainer" class="clearfix">
+    <h2>Results</h2>
+    <div id="results">
+        <div id="raceInfo1" class="raceInfo">Car 1 <span></span></div>
+        <div id="raceInfo2" class="raceInfo">Car 2 <span></span></div>
+    </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
